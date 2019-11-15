@@ -16,7 +16,6 @@ $(document).ready(() => {
     
     $("button").on("click", event => {
         const { currentTarget } = event;
-
         $(currentTarget).removeClass("btn-secondary btn-sm")
         .addClass("btn-primary btn-sm");
         let btnLetter = event.currentTarget.innerText.toLowerCase();
